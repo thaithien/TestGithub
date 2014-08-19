@@ -1,0 +1,16 @@
+
+
+<some_cmds>
+    dd Delete an entire line.
+    5dd Delete 5 lines.
+    dj Move the cursor up, deleting everything to the left on the current line and everything to the right on the line above.
+    dG Delete everything from here until the end of the file.
+    7dgg Delete everything between here and line 7.
+    d% Move to the brace or paren which matches the next paren or brace (whichever comes first) and delete everything between here and there, including the brace or paren that you jump to
+    dw Delete everything between here and the next beginning of a word
+    de Delete everything between here and the next end of a word
+    D Delete everything between here and the end of the line
+    d0 Delete everything between here and the beginning of the line
+    d^ Delete everything between here and the beginning of the first word on the line
+    dty Delete everything between here and the next occurrence of y on this line (or nothing if there are no y's between here and the end of the line)
+</some_cmds>

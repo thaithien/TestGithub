@@ -1,0 +1,9 @@
+
+
+<define_vs_variable>
+
+DEFINE variable -- which works like a macro variable, it is 
+physically replaced in the statement prior to execution -- with a bind variable which is 
+a placeholder in a sql query to be filled in with a value at runtime.
+
+</define_vs_variable>
