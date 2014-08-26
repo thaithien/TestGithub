@@ -7,3 +7,101 @@ physically replaced in the statement prior to execution -- with a bind variable 
 a placeholder in a sql query to be filled in with a value at runtime.
 
 </define_vs_variable>
+
+
+<create_user>
+http://www.techonthenet.com/oracle/users/create_user.php
+http://www.techonthenet.com/oracle/grant_revoke.php
+
+The syntax for the CREATE USER statement in Oracle/PLSQL is:
+
+CREATE USER user_name 
+  IDENTIFIED { BY password
+             | EXTERNALLY [ AS 'certificate_DN' ]
+             | GLOBALLY [ AS '[ directory_DN ]' ]
+             }
+  [ DEFAULT TABLESPACE tablespace
+  | TEMPORARY TABLESPACE
+       { tablespace | tablespace_group }
+  | QUOTA integer [ K | M | G | T | P | E ]
+        | UNLIMITED }
+        ON tablespace
+    [ QUOTA integer [ K | M | G | T | P | E ]
+        | UNLIMITED }
+            ON tablespace
+    ]
+  | PROFILE profile_name
+  | PASSWORD EXPIRE
+  | ACCOUNT { LOCK | UNLOCK }
+     [ DEFAULT TABLESPACE tablespace
+     | TEMPORARY TABLESPACE
+         { tablespace | tablespace_group }
+     | QUOTA integer [ K | M | G | T | P | E ]
+           | UNLIMITED }
+           ON tablespace
+       [ QUOTA integer [ K | M | G | T | P | E ]
+           | UNLIMITED }
+           ON tablespace
+        ]
+     | PROFILE profile
+     | PASSWORD EXPIRE
+     | ACCOUNT { LOCK | UNLOCK } ]
+     ] ;
+
+
+Example
+
+If you wanted to execute a simple CREATE USER statement that creates a new user and assigns a password, you could do the following:
+
+For example:
+
+CREATE USER smithj
+  IDENTIFIED BY pwd4smithj
+  DEFAULT TABLESPACE tbs_perm_01
+  TEMPORARY TABLESPACE tbs_temp_01
+  QUOTA 20M on tbs_perm_01;
+
+This CREATE USER statement would create a new user called smithj in the Oracle database whose password is pwd4smithj, the default tablespace would be tbs_perm_01 with a quota of 20MB, and the temporary tablespace would be tbs_temp_01.
+
+If you wanted to make sure that the user changed their password before logging into the database, you could add the PASSWORD EXPIRE option as follows:
+
+CREATE USER smithj
+  IDENTIFIED BY pwd4smithj
+  DEFAULT TABLESPACE tbs_perm_01
+  TEMPORARY TABLESPACE tbs_temp_01
+  QUOTA 20M on tbs_perm_01
+  PASSWORD EXPIRE;
+
+External Database User
+
+To create an External Database user, you could execute the following CREATE USER statement:
+
+CREATE USER external_user1
+  IDENTIFIED EXTERNALLY
+  DEFAULT TABLESPACE tbs_perm_01
+  QUOTA 5M on tbs_perm_01
+  PROFILE external_user_profile;
+
+This CREATE USER statement would create an External Database user called external_user1 that has a default tablespace of tbs_perm_01 with a quote of 5MB, and is limited by the database resources assigned to external_user_profile.
+
+To create an External Database user that is only accessible by an operating system account, you could run the following CREATE USER statement:
+
+CREATE USER ops$external_user1
+  IDENTIFIED EXTERNALLY
+  DEFAULT TABLESPACE tbs_perm_01
+  QUOTA 5M on tbs_perm_01
+  PROFILE external_user_profile;
+
+Note that the only difference between this CREATE USER statement and the previous is the ops$ in front of the user_name.
+Global Database User
+
+To create a Global Database user, you could execute the following CREATE USER statement:
+
+CREATE USER global_user1
+  IDENTIFIED GLOBALLY AS 'CN=manager, OU=division, O=oracle, C=US'
+  DEFAULT TABLESPACE tbs_perm_01
+  QUOTA 10M on tbs_perm_01;
+
+This CREATE USER statement would create a Global Database user called global_user1 that has a default tablespace of tbs_perm_01 with a quote of 10M.
+
+</create_user>
