@@ -128,135 +128,136 @@
             wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonCloudFront/latest/APIReference/Welcome.html
             wget -c -r -k -m -p -np http://s3.amazonaws.com/awsdocs/CF/latest/cf-qrc.pdf
 ::
+::
 ::Database
 ::    Amazon RDS
-http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
-http://docs.aws.amazon.com/AmazonRDS/latest/CommandLineReference/Welcome.html
-http://docs.aws.amazon.com/AmazonRDS/latest/APIReference/Welcome.html
-http://awsdocs.s3.amazonaws.com/RDS/latest/rds-qrc.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonRDS/latest/CommandLineReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonRDS/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/RDS/latest/rds-qrc.pdf
 ::    Amazon DynamoDB
-http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
-http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/Welcome.html
 ::    Amazon ElastiCache
-http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/WhatIs.html
-http://docs.aws.amazon.com/AmazonElastiCache/latest/CommandLineReference/Welcome.html
-http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/WhatIs.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonElastiCache/latest/CommandLineReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
 ::    Amazon Redshift
-http://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html
-http://docs.aws.amazon.com/redshift/latest/dg/welcome.html
-http://docs.aws.amazon.com/cli/latest/reference/redshift/index.html
-http://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html
-http://docs.aws.amazon.com/redshift/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/redshift/latest/dg/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cli/latest/reference/redshift/index.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/redshift/latest/APIReference/Welcome.html
 ::    Amazon SimpleDB
-http://docs.aws.amazon.com/AmazonSimpleDB/latest/GettingStartedGuide/Welcome.html
-http://docs.aws.amazon.com/AmazonSimpleDB/latest/DeveloperGuide/Welcome.html
-http://awsdocs.s3.amazonaws.com/SDB/latest/sdb-qrc.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonSimpleDB/latest/GettingStartedGuide/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonSimpleDB/latest/DeveloperGuide/Welcome.html
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/SDB/latest/sdb-qrc.pdf
 ::
 ::Analytics
 ::    Amazon EMR
-http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-what-is-emr.html
-http://docs.aws.amazon.com/ElasticMapReduce/latest/API/Welcome.html
-http://s3.amazonaws.com/awsdocs/ElasticMapReduce/latest/emr-qrc.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-what-is-emr.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/ElasticMapReduce/latest/API/Welcome.html
+            wget -c -r -k -m -p -np http://s3.amazonaws.com/awsdocs/ElasticMapReduce/latest/emr-qrc.pdf
 ::    Amazon Kinesis
-http://docs.aws.amazon.com/kinesis/latest/dev/introduction.html
-http://docs.aws.amazon.com/kinesis/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/kinesis/latest/dev/introduction.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/kinesis/latest/APIReference/Welcome.html
 ::    AWS Data Pipeline
-http://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html
-http://docs.aws.amazon.com/datapipeline/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/datapipeline/latest/APIReference/Welcome.html
 ::
 ::Applications
 ::    Amazon WorkSpaces
-http://docs.aws.amazon.com/workspaces/latest/adminguide/what_is.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/workspaces/latest/adminguide/what_is.html
 ::    Amazon Zocalo
-http://docs.aws.amazon.com/zocalo/latest/adminguide/what_is.html
-http://docs.aws.amazon.com/zocalo/latest/userguide/what_is.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/zocalo/latest/adminguide/what_is.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/zocalo/latest/userguide/what_is.html
 ::
 ::Deployment & Management
 ::    AWS Identity & Access Management
-http://docs.aws.amazon.com/IAM/latest/UserGuide/IAM_Introduction.html
-http://docs.aws.amazon.com/STS/latest/UsingSTS/Welcome.html
-http://docs.aws.amazon.com/cli/latest/reference/iam/index.html
-http://docs.aws.amazon.com/cli/latest/reference/sts/index.html
-http://docs.aws.amazon.com/IAM/latest/APIReference/Welcome.html
-http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/IAM/latest/UserGuide/IAM_Introduction.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/STS/latest/UsingSTS/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cli/latest/reference/iam/index.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cli/latest/reference/sts/index.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/IAM/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
 ::    AWS CloudTrail
-http://docs.aws.amazon.com/awscloudtrail/latest/userguide/what_is_cloud_trail_top_level.html
-http://docs.aws.amazon.com/awscloudtrail/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/awscloudtrail/latest/userguide/what_is_cloud_trail_top_level.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/awscloudtrail/latest/APIReference/Welcome.html
 ::    Amazon CloudWatch
-http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/WhatIsCloudWatch.html
-http://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/Welcome.html
-http://docs.aws.amazon.com/AmazonCloudWatch/latest/cli/Welcome.html
-http://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/Welcome.html
-http://docs.aws.amazon.com/cli/latest/reference/cloudwatch/index.html
-http://docs.aws.amazon.com/cli/latest/reference/logs/index.html
-http://awsdocs.s3.amazonaws.com/AmazonCloudWatch/latest/acw-qrc.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/WhatIsCloudWatch.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonCloudWatch/latest/cli/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cli/latest/reference/cloudwatch/index.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cli/latest/reference/logs/index.html
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/AmazonCloudWatch/latest/acw-qrc.pdf
 ::    AWS Elastic Beanstalk
-http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
-http://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
-http://docs.aws.amazon.com/AWSToolkitEclipse/latest/GettingStartedGuide/deploy_using_elastic_beanstalk.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSToolkitEclipse/latest/GettingStartedGuide/deploy_using_elastic_beanstalk.html
 
 ::    AWS CloudFormation
-http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
-http://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/Welcome.html
-http://awsdocs.s3.amazonaws.com/AWSCloudFormation/latest/qrc_cfn_api.pdf
-http://awsdocs.s3.amazonaws.com/AWSCloudFormation/latest/qrc_cfn_cli.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/AWSCloudFormation/latest/qrc_cfn_api.pdf
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/AWSCloudFormation/latest/qrc_cfn_cli.pdf
 ::    AWS OpsWorks
-http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
-http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
 ::    AWS CloudHSM
-http://docs.aws.amazon.com/cloudhsm/latest/gsg/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cloudhsm/latest/gsg/Welcome.html
 ::    
 ::App Services
 ::    Amazon AppStream
-http://docs.aws.amazon.com/appstream/latest/developerguide/appstream-intro.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/appstream/latest/developerguide/appstream-intro.html
 ::    Amazon CloudSearch
-http://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html
 ::    Amazon Elastic Transcoder
-http://docs.aws.amazon.com/elastictranscoder/latest/developerguide/introduction.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/elastictranscoder/latest/developerguide/introduction.html
 ::    Amazon SES
-http://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html
-http://docs.aws.amazon.com/ses/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/ses/latest/APIReference/Welcome.html
 ::    Amazon SQS
-http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/Welcome.html
-http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
-http://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/Welcome.html
-http://awsdocs.s3.amazonaws.com/SQS/latest/sqs_qrc.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/SQS/latest/sqs_qrc.pdf
 ::    Amazon SWF
-http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-welcome.html
-http://docs.aws.amazon.com/amazonswf/latest/apireference/Welcome.html
-http://docs.aws.amazon.com/amazonswf/latest/awsflowguide/welcome.html
-http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/simpleworkflow/flow/package-frame.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/amazonswf/latest/apireference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/amazonswf/latest/awsflowguide/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/simpleworkflow/flow/package-frame.html
 ::
 ::Mobile Services
 ::    Amazon Cognito
-http://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html
-http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/
-http://docs.aws.amazon.com/cognitosync/latest/APIReference/Welcome.html
-http://docs.aws.amazon.com/mobile/sdkforios/developerguide/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/cognitosync/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobile/sdkforios/developerguide/
 ::    Amazon Mobile Analytics
-http://docs.aws.amazon.com/mobileanalytics/latest/ug/welcome.html
-http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/
-http://docs.aws.amazon.com/mobile/sdkforios/developerguide/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobileanalytics/latest/ug/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobile/sdkforios/developerguide/
 ::    Amazon SNS
-http://docs.aws.amazon.com/sns/latest/dg/welcome.html
-http://docs.aws.amazon.com/sns/latest/cli/welcome.html
-http://docs.aws.amazon.com/sns/latest/api/Welcome.html
-http://awsdocs.s3.amazonaws.com/SNS/latest/sns-qrc.pdf
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/sns/latest/dg/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/sns/latest/cli/welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/sns/latest/api/Welcome.html
+            wget -c -r -k -m -p -np http://awsdocs.s3.amazonaws.com/SNS/latest/sns-qrc.pdf
 ::    AWS Mobile SDK for Android
-http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/
-http://docs.aws.amazon.com/AWSAndroidSDK/latest/javadoc/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSAndroidSDK/latest/javadoc/
 ::    AWS Mobile SDK for iOS
-http://docs.aws.amazon.com/mobile/sdkforios/developerguide/
-http://docs.aws.amazon.com/AWSiOSSDK/latest/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/mobile/sdkforios/developerguide/
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/AWSiOSSDK/latest/
 ::
 ::Resources
 ::    AWS Billing and Cost Management
-http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
 ::    AWS Marketplace
-http://docs.aws.amazon.com/marketplace/latest/controlling-access/what-is-marketplace.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/marketplace/latest/controlling-access/what-is-marketplace.html
 ::    AWS Support
-http://docs.aws.amazon.com/awssupport/latest/user/getting-started.html
-http://docs.aws.amazon.com/awssupport/latest/APIReference/Welcome.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/awssupport/latest/user/getting-started.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/awssupport/latest/APIReference/Welcome.html
 ::    AWS Glossary
-http://docs.aws.amazon.com/general/latest/gr/glos-chap.html
+            wget -c -r -k -m -p -np http://docs.aws.amazon.com/general/latest/gr/glos-chap.html
 ::=========================================================
