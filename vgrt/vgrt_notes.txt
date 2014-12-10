@@ -1,0 +1,26 @@
+# setup vagrant
+gem install vagrant
+vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+mkdir my_vagrant_test
+cd my_vagrant_test
+vagrant init lucid32
+vim Vagrantfile
+vagrant up
+vagrant ssh
+ 
+# inside virtual machine
+whoami
+cd /vagrant
+ruby -v
+sudo apt-get update
+sudo apt-get install build-essential zlib1g-dev curl git-core sqlite3 libsqlite3-dev
+ 
+# vagrant commands
+vagrant reload
+vagrant status
+vagrant suspend
+vagrant resume
+vagrant halt
+vagrant up
+vagrant package
+vagrant destroy 
