@@ -1,6 +1,9 @@
 # setup vagrant
 gem install vagrant
 vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+#Local files
+vagrant box add centos65 file:///f:/centos65-x86_64-20131205.box
+
 mkdir my_vagrant_test
 cd my_vagrant_test
 vagrant init lucid32

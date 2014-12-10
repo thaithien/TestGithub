@@ -3,29 +3,35 @@
         <File name="notepad_ws_thien.xml" />
         <Folder name="TestGit">
             <Folder name="git_guide">
-                <File name="D:\01_CheckoutSources\git\TestGithub\git_guide\atlassian_git_cheatsheet.pdf" />
-                <File name="D:\01_CheckoutSources\git\TestGithub\git_guide\git-cheat-sheet.pdf" />
-                <File name="D:\01_CheckoutSources\git\TestGithub\git_guide\github-git-cheat-sheet.pdf" />
+                <File name="git_guide\atlassian_git_cheatsheet.pdf" />
+                <File name="git_guide\git-cheat-sheet.pdf" />
+                <File name="git_guide\github-git-cheat-sheet.pdf" />
+            </Folder>
+            <Folder name="grdl">
+                <File name="grdl\grdl_template.txt" />
+                <File name="grdl\inAction.txt" />
             </Folder>
             <Folder name="java">
-                <File name="D:\01_CheckoutSources\git\TestGithub\java\cmdx_ant_gradle_maven_buildsystems.cmd" />
+                <File name="java\cmdx_ant_gradle_maven_buildsystems.cmd" />
             </Folder>
             <Folder name="sql">
-                <File name="D:\01_CheckoutSources\git\TestGithub\sql\sqlplus.xml" />
+                <File name="sql\sqlplus.xml" />
+            </Folder>
+            <Folder name="vgrt">
+                <File name="vgrt\vgrt_notes.txt" />
             </Folder>
             <Folder name="webpages_ref">
-                <File name="D:\01_CheckoutSources\git\TestGithub\webpages_ref\GNU Wget 1.15 Manual.htm" />
+                <File name="webpages_ref\GNU Wget 1.15 Manual.htm" />
             </Folder>
             <Folder name="ws">
-                <File name="D:\01_CheckoutSources\git\TestGithub\ws\vgrt.sql" />
-                <File name="D:\01_CheckoutSources\git\TestGithub\ws\vi_vim.xml" />
-                <File name="D:\01_CheckoutSources\git\TestGithub\ws\wget.xml" />
-                <File name="D:\01_CheckoutSources\git\TestGithub\ws\wget_aws.cmd" />
+                <File name="ws\vgrt.sql" />
+                <File name="ws\vi_vim.xml" />
+                <File name="ws\wget.xml" />
+                <File name="ws\wget_aws.cmd" />
             </Folder>
-            <File name="D:\01_CheckoutSources\git\TestGithub\git_cmd_ref.xml" />
-            <File name="D:\01_CheckoutSources\git\TestGithub\README.md" />
-            <File name="grdl\grdl_template.txt" />
-            <File name="grdl\inAction.txt" />
+            <File name="git_cmd_ref.xml" />
+            <File name="notepad_ws_thien.xml" />
+            <File name="README.md" />
         </Folder>
     </Project>
     <Project name="Oracle">
