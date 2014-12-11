@@ -1,0 +1,72 @@
+
+
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://dl.bintray.com/cjstehno/public'
+        }
+    }
+    dependencies {
+        classpath 'gradle-templates:gradle-templates:1.4.1'
+    }
+}
+
+apply plugin:'templates'
+
+
+============
+jar {
+manifest { 
+attributes 'Main-Class': 'com.manning.gia.todo.ToDoApp'
+}
+}
+compatibility to 1.6
+
+============
+Listing3.5 Changing the project default layout
+sourceSets {
+	main {
+		java {
+		srcDirs = ['src'] 
+	}
+}
+test {
+	java {
+	srcDirs = ['test'] 
+	}
+	}
+}
+buildDir = 'out' 
+
+
+============
+DEFINING THE REPOSITORY
+repositories {
+mavenCentral() 
+}
+============
+DEFINING THE DEPENDENCY
+dependencies {
+compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
+}
+
+============
+CUSTOMIZING THE JETTY PLUGIN
+jettyRun { 
+httpPort = 9090
+contextPath = 'todo'
+}
+============
+3.4.1 Setting up the wrapper
+task wrapper(type: Wrapper) {
+gradleVersion = '1.7'
+}
+$ gradle wrapper
+
+
+
+
+
+
+
