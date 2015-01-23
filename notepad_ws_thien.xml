@@ -1,5 +1,6 @@
 <NotepadPlus>
     <Project name="General">
+        <File name="D:\merci\notes.txt" />
         <File name="notepad_ws_thien.xml" />
         <Folder name="TestGit">
             <Folder name="git_guide">

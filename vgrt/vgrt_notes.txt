@@ -27,3 +27,25 @@ vagrant halt
 vagrant up
 vagrant package
 vagrant destroy 
+
+# =============================================================== #
+# Port Forwarding
+config.vm.network :forwarded_port, guest: 80, host: 8888
+
+# Synced folders
+config.vm.synced_folder "/Users/michael/assets/" "/var/w ww/assets"
+
+#Networking
+#By default, our Vagrant virtual machines are only accessible from the machines we 
+#run Vagrant on. If we map ports to our host, then we can share services running on 
+#the VM with our colleagues within our network. If we want to allow our colleagues 
+#to access our Vagrant-managed VMs directly, we can attach the VM to our internal 
+#network, and VirtualBox will bridge the network between our machine and the VM 
+#and the internal network between our machine and the rest of the machines in your 
+#home or office:
+config.vm.network :private_network, ip: "192.168.1.100"
+
+#Auto-running commands
+config.vm.provision :shell, :inline => "sudo apt-get update"
+config.vm.provision :shell, :path => "provision.sh"
+
