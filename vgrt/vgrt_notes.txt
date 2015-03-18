@@ -1,0 +1,51 @@
+# setup vagrant
+gem install vagrant
+vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+#Local files
+vagrant box add centos65 file:///f:/centos65-x86_64-20131205.box
+
+mkdir my_vagrant_test
+cd my_vagrant_test
+vagrant init lucid32
+vim Vagrantfile
+vagrant up
+vagrant ssh
+ 
+# inside virtual machine
+whoami
+cd /vagrant
+ruby -v
+sudo apt-get update
+sudo apt-get install build-essential zlib1g-dev curl git-core sqlite3 libsqlite3-dev
+ 
+# vagrant commands
+vagrant reload
+vagrant status
+vagrant suspend
+vagrant resume
+vagrant halt
+vagrant up
+vagrant package
+vagrant destroy 
+
+# =============================================================== #
+# Port Forwarding
+config.vm.network :forwarded_port, guest: 80, host: 8888
+
+# Synced folders
+config.vm.synced_folder "/Users/michael/assets/" "/var/w ww/assets"
+
+#Networking
+#By default, our Vagrant virtual machines are only accessible from the machines we 
+#run Vagrant on. If we map ports to our host, then we can share services running on 
+#the VM with our colleagues within our network. If we want to allow our colleagues 
+#to access our Vagrant-managed VMs directly, we can attach the VM to our internal 
+#network, and VirtualBox will bridge the network between our machine and the VM 
+#and the internal network between our machine and the rest of the machines in your 
+#home or office:
+config.vm.network :private_network, ip: "192.168.1.100"
+
+#Auto-running commands
+config.vm.provision :shell, :inline => "sudo apt-get update"
+config.vm.provision :shell, :path => "provision.sh"
+

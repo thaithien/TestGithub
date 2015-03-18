@@ -1,0 +1,136 @@
+
+=======
+https://github.com/townsfolk/gradle-templates
+
+Gradle Templates Plugin
+Introduction
+
+The Gradle Templates plugin helps you get started using Gradle by providing convenient tasks for creating new projects that work with the Gradle build system. Eg. To create a new Java project you can run:
+
+gradle createJavaProject
+
+Which will prompt you for the name of your new project and then create a new directory with it. It will also create a standard directory structure in your project's directory that works with Gradle's default configurations.
+
+The plugin also makes it easy to create your own templates which can be useful in creating new projects, or creating components within your projects. Eg. It's easy to create a simple task to generate a new GSP that fits your company's standard layout. Or to create a more complex task to generate a new servlet and add the entry into your webapp's web.xml file.
+Installation
+
+The standard way to install this plugin is by adding the following to your build.gradle file:
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://dl.bintray.com/cjstehno/public'
+        }
+    }
+    dependencies {
+        classpath 'gradle-templates:gradle-templates:1.5'
+    }
+}
+
+apply plugin:'templates'
+
+Other methods of installation are documented on the project installation page.
+Usage
+
+Run the gradle tasks command to see a list of "create", "init", and "export" tasks provided by the default plugin templates.
+
+Running a create or init task will prompt the user for information and then generate the appropriate content.
+
+The main difference between the create*Project and init*Project tasks is that the create tasks end up creating a new directory for your new project, and the init tasks will create the default directory structure under the current directory.
+
+The export* tasks cause the templates to be exported to the local project.
+
+Other usage documentation can be found on the project Usage page.
+Details
+
+    Version: 1.5
+    Project Site: http://cjstehno.github.io/gradle-templates
+    Project Repo: https://github.com/townsfolk/gradle-templates
+    Wiki/Documentation: https://github.com/townsfolk/gradle-templates/wiki
+    License: Apache 2
+    Questions, bugs, issues: https://github.com/townsfolk/gradle-templates/issues
+
+
+
+
+
+
+
+
+=====================
+http://answers.ros.org/question/47312/do-i-need-to-add-jar-path-in-buildgradle/
+dependencies {
+  compile fileTree(dir: 'lib', include: '**/*.jar')
+}
+
+=====================
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://dl.bintray.com/cjstehno/public'
+        }
+    }
+    dependencies {
+        classpath 'gradle-templates:gradle-templates:1.4.1'
+    }
+}
+
+apply plugin:'templates'
+
+
+============
+jar {
+manifest { 
+attributes 'Main-Class': 'com.manning.gia.todo.ToDoApp'
+}
+}
+compatibility to 1.6
+
+============
+Listing3.5 Changing the project default layout
+sourceSets {
+	main {
+		java {
+		srcDirs = ['src'] 
+	}
+}
+test {
+	java {
+	srcDirs = ['test'] 
+	}
+	}
+}
+buildDir = 'out' 
+
+
+============
+DEFINING THE REPOSITORY
+repositories {
+mavenCentral() 
+}
+============
+DEFINING THE DEPENDENCY
+dependencies {
+compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
+}
+
+============
+CUSTOMIZING THE JETTY PLUGIN
+jettyRun { 
+httpPort = 9090
+contextPath = 'todo'
+}
+============
+3.4.1 Setting up the wrapper
+task wrapper(type: Wrapper) {
+gradleVersion = '1.7'
+}
+$ gradle wrapper
+
+
+
+
+
+
+
