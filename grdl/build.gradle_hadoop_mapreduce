@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = "1.6"
+targetCompatibility = "1.6"
+
+//change this value here
+archivesBaseName = 'thiensample'
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+}
+
+repositories {
+    // Standard Maven 
+    mavenCentral()
+    maven {
+        url "https://repository.cloudera.com/artifactory/cloudera-repos/"
+    }
+}
+
+dependencies{
+  compile 'org.apache.hadoop:hadoop-client:2.0.0-mr1-cdh4.1.2', {
+  }
+  compile 'org.slf4j:slf4j-api:1.7.3', {
+  }
+  compile 'commons-cli:commons-cli:1.2', {
+  }
+}
