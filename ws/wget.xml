@@ -3,3 +3,7 @@ wget -r -l1 --no-parent -A.gif http://host/dir/
 http://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html
 
 wget -r -k -m --no-parent http://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html
+
+--Download a range
+wget https://[base url]\ {1..12}.html
+
