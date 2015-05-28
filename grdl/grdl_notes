@@ -1,0 +1,38 @@
+=======================================================
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+//Archive base name
+archivesBaseName = 'SQLLiteSample'
+
+//Main class name
+mainClassName = 'SQLiteJDBC'
+//repositories{
+//  mavenCentral();
+//
+//}
+//task listJars << {
+//    configurations.compile.each { File file -> println file.name }
+//}
+dependencies{
+  compile fileTree(dir:"libs", include: ['*.jar'])
+}
+
+configurations{
+  cargo{
+    description = 'Cargo projects'
+    visible = false
+  }
+
+}
+
+task(runSimple, dependsOn: 'classes', type:JavaExec){
+  main = 'Simple'
+  classpath = sourceSets.main.runtimeClasspath
+  args 'thiennguyen'
+  systemProperty 'simple.message', 'Hello '
+}
+
+=======================================================
