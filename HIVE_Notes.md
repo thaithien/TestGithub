@@ -1,0 +1,2 @@
+
+Some HIVE Notes
