@@ -38,3 +38,7 @@ Step 6
 Open web browser and hit http://your_raspberry_pi_IP:9091
 Enter the user id and password you've configured, and viola!
 ```
+
+
+## Set up node
+see http://www.andrewconnell.com/blog/setup-node-js-on-raspberry-pi-2-b
