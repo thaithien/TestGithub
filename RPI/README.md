@@ -42,3 +42,9 @@ Enter the user id and password you've configured, and viola!
 
 ## Set up node
 see http://www.andrewconnell.com/blog/setup-node-js-on-raspberry-pi-2-b
+
+wget http://node-arm.herokuapp.com/node_latest_armhf.deb
+sudo dpkg -i node_latest_armhf.deb
+node -v
+curl -L https://npmjs.com/install.sh | sh
+
