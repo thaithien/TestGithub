@@ -1,0 +1,8 @@
+<NotepadPlus>
+    <Project name="Meta">
+        <File name="notepad_ws.txt" />
+    </Project>
+    <Project name="Tech">
+        <File name="tech\tech.xml" />
+    </Project>
+</NotepadPlus>
