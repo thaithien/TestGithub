@@ -48,3 +48,9 @@ sudo dpkg -i node_latest_armhf.deb
 node -v
 curl -L https://npmjs.com/install.sh | sh
 
+
+
+## How to run my nodejs application on boot
+
+- Make /etc/rc.local, add your command line there
+- 
