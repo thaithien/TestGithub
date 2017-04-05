@@ -17,5 +17,6 @@ With arguments:
 
 
 
+
 Credit: [3 ways to run Java from maven - vineetmanohar](http://www.vineetmanohar.com/2009/11/3-ways-to-run-java-main-from-maven/)
 
