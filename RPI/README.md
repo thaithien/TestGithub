@@ -54,3 +54,8 @@ curl -L https://npmjs.com/install.sh | sh
 
 - Make /etc/rc.local, add your command line there
 - 
+
+
+# Pi-Hole
+
+Link [Pi-Hole Forum](https://discourse.pi-hole.net/)
